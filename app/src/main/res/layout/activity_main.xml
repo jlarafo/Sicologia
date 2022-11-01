@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:gravity="top"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+
+        android:textDirection="firstStrongLtr"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:gravity="top">
+
+        <TextView
+            android:id="@+id/textViewReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="Registro"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="Crea tu cuenta" />
+
+        <TextView
+            android:id="@+id/textViewUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de Usuario" />
+
+        <EditText
+            android:id="@+id/editTextUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:ems="10"
+
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewEsp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textViewMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo Electronico" />
+
+        <EditText
+            android:id="@+id/editTextMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:ems="10"
+            android:inputType="textMultiLine|textPersonName"
+            android:lineSpacingExtra="14sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextViewEsp1"
+            android:visibility="invisible" />
+
+
+        <TextView
+            android:id="@+id/textViewContras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña" />
+
+        <EditText
+            android:id="@+id/editTextContra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:ems="10"
+            android:inputType="textMultiLine|textPersonName"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="5" />
+
+        <TextView
+            android:id="@+id/textViewEsp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextViewEsp2"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textViewCContras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar Contraseña" />
+
+        <EditText
+            android:id="@+id/editTextConfContra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:ems="10"
+            android:inputType="textMultiLine|textPersonName"
+            android:lineSpacingExtra="14sp"
+            android:lineSpacingMultiplier="5" />
+
+        <TextView
+            android:id="@+id/textViewEsp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textViewEsp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextViewEsp3"
+            android:visibility="invisible" />
+
+        <Button
+        android:id="@+id/ButtonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/borde_redondo"
+        android:text="Guardar"
+        android:textColor="@color/green" />
+
+</LinearLayout>
+
+</LinearLayout>
